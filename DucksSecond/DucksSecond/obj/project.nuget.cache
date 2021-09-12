@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HOM2VLWMIeiCrYmbeSYt0Sb+MaI9EfEcWQAtbmCfZwz8gNb/JKwc4LTfS0kWuF0itdEPXDPcSVbwJEKbFrj1mA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gleba\\source\\repos\\OOD\\DucksSecond\\DucksSecond\\DucksSecond.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gleba\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

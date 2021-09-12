@@ -1,0 +1,13 @@
+C:\Users\gleba\source\repos\Ducks\Ducks\bin\Debug\netcoreapp3.1\Ducks.exe
+C:\Users\gleba\source\repos\Ducks\Ducks\bin\Debug\netcoreapp3.1\Ducks.deps.json
+C:\Users\gleba\source\repos\Ducks\Ducks\bin\Debug\netcoreapp3.1\Ducks.runtimeconfig.json
+C:\Users\gleba\source\repos\Ducks\Ducks\bin\Debug\netcoreapp3.1\Ducks.runtimeconfig.dev.json
+C:\Users\gleba\source\repos\Ducks\Ducks\bin\Debug\netcoreapp3.1\Ducks.dll
+C:\Users\gleba\source\repos\Ducks\Ducks\bin\Debug\netcoreapp3.1\Ducks.pdb
+C:\Users\gleba\source\repos\Ducks\Ducks\obj\Debug\netcoreapp3.1\Ducks.csprojAssemblyReference.cache
+C:\Users\gleba\source\repos\Ducks\Ducks\obj\Debug\netcoreapp3.1\Ducks.AssemblyInfoInputs.cache
+C:\Users\gleba\source\repos\Ducks\Ducks\obj\Debug\netcoreapp3.1\Ducks.AssemblyInfo.cs
+C:\Users\gleba\source\repos\Ducks\Ducks\obj\Debug\netcoreapp3.1\Ducks.csproj.CoreCompileInputs.cache
+C:\Users\gleba\source\repos\Ducks\Ducks\obj\Debug\netcoreapp3.1\Ducks.dll
+C:\Users\gleba\source\repos\Ducks\Ducks\obj\Debug\netcoreapp3.1\Ducks.pdb
+C:\Users\gleba\source\repos\Ducks\Ducks\obj\Debug\netcoreapp3.1\Ducks.genruntimeconfig.cache
