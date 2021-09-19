@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "observer4", "observer4\observer4.csproj", "{8027CD13-6B60-415A-BAC8-1578C5D365AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "observer4Tests", "observer4Test\observer4Tests.csproj", "{0EEF00A5-C13D-4961-BEB0-6C9D2D050315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8027CD13-6B60-415A-BAC8-1578C5D365AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8027CD13-6B60-415A-BAC8-1578C5D365AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8027CD13-6B60-415A-BAC8-1578C5D365AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8027CD13-6B60-415A-BAC8-1578C5D365AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEF00A5-C13D-4961-BEB0-6C9D2D050315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEF00A5-C13D-4961-BEB0-6C9D2D050315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEF00A5-C13D-4961-BEB0-6C9D2D050315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEF00A5-C13D-4961-BEB0-6C9D2D050315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9ABD09B7-1EFE-4AFE-90DE-CACFE2AF42E1}
+	EndGlobalSection
+EndGlobal

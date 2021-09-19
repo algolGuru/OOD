@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\ood\observer\observer\bin\Debug\netcoreapp3.1\observer.exe
+C:\Users\user\source\repos\ood\observer\observer\bin\Debug\netcoreapp3.1\observer.deps.json
+C:\Users\user\source\repos\ood\observer\observer\bin\Debug\netcoreapp3.1\observer.runtimeconfig.json
+C:\Users\user\source\repos\ood\observer\observer\bin\Debug\netcoreapp3.1\observer.runtimeconfig.dev.json
+C:\Users\user\source\repos\ood\observer\observer\bin\Debug\netcoreapp3.1\observer.dll
+C:\Users\user\source\repos\ood\observer\observer\bin\Debug\netcoreapp3.1\observer.pdb
+C:\Users\user\source\repos\ood\observer\observer\obj\Debug\netcoreapp3.1\observer.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ood\observer\observer\obj\Debug\netcoreapp3.1\observer.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ood\observer\observer\obj\Debug\netcoreapp3.1\observer.AssemblyInfo.cs
+C:\Users\user\source\repos\ood\observer\observer\obj\Debug\netcoreapp3.1\observer.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ood\observer\observer\obj\Debug\netcoreapp3.1\observer.dll
+C:\Users\user\source\repos\ood\observer\observer\obj\Debug\netcoreapp3.1\observer.pdb
+C:\Users\user\source\repos\ood\observer\observer\obj\Debug\netcoreapp3.1\observer.genruntimeconfig.cache
