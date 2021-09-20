@@ -1,0 +1,13 @@
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\bin\Debug\netcoreapp3.1\DucksFirst.exe
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\bin\Debug\netcoreapp3.1\DucksFirst.deps.json
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\bin\Debug\netcoreapp3.1\DucksFirst.runtimeconfig.json
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\bin\Debug\netcoreapp3.1\DucksFirst.runtimeconfig.dev.json
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\bin\Debug\netcoreapp3.1\DucksFirst.dll
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\bin\Debug\netcoreapp3.1\DucksFirst.pdb
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\obj\Debug\netcoreapp3.1\DucksFirst.csprojAssemblyReference.cache
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\obj\Debug\netcoreapp3.1\DucksFirst.AssemblyInfoInputs.cache
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\obj\Debug\netcoreapp3.1\DucksFirst.AssemblyInfo.cs
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\obj\Debug\netcoreapp3.1\DucksFirst.csproj.CoreCompileInputs.cache
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\obj\Debug\netcoreapp3.1\DucksFirst.dll
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\obj\Debug\netcoreapp3.1\DucksFirst.pdb
+C:\Users\gleba\source\repos\OOD\Ducks\Ducks\obj\Debug\netcoreapp3.1\DucksFirst.genruntimeconfig.cache

@@ -1,5 +1,4 @@
 ﻿using Ducks.Strategies;
-using System;
 
 namespace Ducks
 {

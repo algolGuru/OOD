@@ -4,8 +4,7 @@ namespace Ducks.Strategies
 {
     class FlyNoWay : IFlyBehavior
     {
-        private int _numbersOfFlights = 0;
-        public int NumbersOfFlgihts { get { return _numbersOfFlights; } }
+        public int NumbersOfFlgihts { get { return 0; } }
         public void Fly() { }
     }
 }
