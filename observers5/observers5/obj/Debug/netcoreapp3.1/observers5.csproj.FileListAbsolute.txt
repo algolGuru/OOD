@@ -1,0 +1,14 @@
+C:\Учеба\OOD\observers5\observers5\bin\Debug\netcoreapp3.1\observers5.exe
+C:\Учеба\OOD\observers5\observers5\bin\Debug\netcoreapp3.1\observers5.deps.json
+C:\Учеба\OOD\observers5\observers5\bin\Debug\netcoreapp3.1\observers5.runtimeconfig.json
+C:\Учеба\OOD\observers5\observers5\bin\Debug\netcoreapp3.1\observers5.runtimeconfig.dev.json
+C:\Учеба\OOD\observers5\observers5\bin\Debug\netcoreapp3.1\observers5.dll
+C:\Учеба\OOD\observers5\observers5\bin\Debug\netcoreapp3.1\observers5.pdb
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.csprojAssemblyReference.cache
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.AssemblyInfoInputs.cache
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.AssemblyInfo.cs
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.csproj.CoreCompileInputs.cache
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.dll
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.pdb
+C:\Учеба\OOD\observers5\observers5\obj\Debug\netcoreapp3.1\observers5.genruntimeconfig.cache

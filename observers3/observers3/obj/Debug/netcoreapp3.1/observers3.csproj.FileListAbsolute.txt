@@ -11,3 +11,17 @@ C:\Users\user\source\repos\ood\observers3\observers3\obj\Debug\netcoreapp3.1\obs
 C:\Users\user\source\repos\ood\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.dll
 C:\Users\user\source\repos\ood\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.pdb
 C:\Users\user\source\repos\ood\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.genruntimeconfig.cache
+C:\Учеба\OOD\observers3\observers3\bin\Debug\netcoreapp3.1\observers3.exe
+C:\Учеба\OOD\observers3\observers3\bin\Debug\netcoreapp3.1\observers3.deps.json
+C:\Учеба\OOD\observers3\observers3\bin\Debug\netcoreapp3.1\observers3.runtimeconfig.json
+C:\Учеба\OOD\observers3\observers3\bin\Debug\netcoreapp3.1\observers3.runtimeconfig.dev.json
+C:\Учеба\OOD\observers3\observers3\bin\Debug\netcoreapp3.1\observers3.dll
+C:\Учеба\OOD\observers3\observers3\bin\Debug\netcoreapp3.1\observers3.pdb
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.csprojAssemblyReference.cache
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.AssemblyInfoInputs.cache
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.AssemblyInfo.cs
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.csproj.CoreCompileInputs.cache
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.dll
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.pdb
+C:\Учеба\OOD\observers3\observers3\obj\Debug\netcoreapp3.1\observers3.genruntimeconfig.cache

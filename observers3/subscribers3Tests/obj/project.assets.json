@@ -3489,20 +3489,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gleba\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gleba\\source\\repos\\OOD\\observers3\\subscribers3Tests\\subscribers3Tests.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\OOD\\observers3\\subscribers3Tests\\subscribers3Tests.csproj",
       "projectName": "subscribers3Tests",
-      "projectPath": "C:\\Users\\gleba\\source\\repos\\OOD\\observers3\\subscribers3Tests\\subscribers3Tests.csproj",
-      "packagesPath": "C:\\Users\\gleba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gleba\\source\\repos\\OOD\\observers3\\subscribers3Tests\\obj\\",
+      "projectPath": "C:\\Users\\user\\source\\repos\\OOD\\observers3\\subscribers3Tests\\subscribers3Tests.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\OOD\\observers3\\subscribers3Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gleba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -3513,10 +3518,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\gleba\\source\\repos\\OOD\\observers3\\observers3\\observers3.csproj": {
-              "projectPath": "C:\\Users\\gleba\\source\\repos\\OOD\\observers3\\observers3\\observers3.csproj"
+            "C:\\Users\\user\\source\\repos\\OOD\\observers3\\observers3\\observers3.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\OOD\\observers3\\observers3\\observers3.csproj"
             }
           }
         }
@@ -3529,7 +3533,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -3563,7 +3566,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }
   }

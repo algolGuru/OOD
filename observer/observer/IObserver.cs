@@ -40,7 +40,6 @@ namespace observer
         }
     }
 
-    //STRUCT
     public class StatisticDisplay : IObserver<WeatherInfo>
     {
         public void Update( WeatherInfo data )

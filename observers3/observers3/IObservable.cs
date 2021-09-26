@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace observer
 {
-    public class Subscriber<T> : IComparable<Subscriber<T>>
+    public class Subscriber<T>
     {
         public Subscriber( int priority, IObserver<T> observer )
         {
@@ -13,20 +12,6 @@ namespace observer
 
         public int Priority { get; }
         public IObserver<T> Observer { get; }
-
-        public int CompareTo( Subscriber<T> other )
-        {
-            if( Priority > other.Priority )
-            {
-                return -1;
-            }
-            else if( Priority < other.Priority )
-            {
-                return 1;
-            }
-
-            return 0;
-        }
     }
 
     public interface IObservable<T>
@@ -40,7 +25,7 @@ namespace observer
     {
         public void NotifyObservers()
         {
-            foreach( var subscriber in _subscribers )
+            foreach ( var subscriber in _subsctibers )
             {
                 subscriber.Observer.Update( GetChangedData() );
             }
@@ -50,20 +35,33 @@ namespace observer
 
         public void RegisterObserver( Subscriber<T> observer )
         {
-            _subscribers.Add( observer );
-            _subscribers.Sort();
+            InsertSubscriber( observer );
         }
 
         public void RemoveObserver( Subscriber<T> observer )
         {
-            _subscribers.Remove( observer );
+            _subsctibers.Remove( observer );
         }
 
         public List<Subscriber<T>> GetSubscribers()
         {
-            return _subscribers;
+            return _subsctibers;
         }
 
-        private readonly List<Subscriber<T>> _subscribers = new List<Subscriber<T>>();
+        private readonly List<Subscriber<T>> _subsctibers = new List<Subscriber<T>>();
+
+        private void InsertSubscriber( Subscriber<T> subscriber )
+        {
+            for ( int i = 0 ; i < _subsctibers.Capacity ; i++ )
+            {
+                if ( subscriber.Priority >= _subsctibers[i].Priority )
+                {
+                    _subsctibers.Insert( i, subscriber );
+                    return;
+                }
+            }
+
+            _subsctibers.Add( subscriber );
+        }
     }
 }
