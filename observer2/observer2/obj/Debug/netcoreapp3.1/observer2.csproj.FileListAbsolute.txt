@@ -11,3 +11,16 @@ C:\Users\user\source\repos\ood\observer2\observer2\bin\Debug\netcoreapp3.1\obser
 C:\Users\user\source\repos\ood\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.dll
 C:\Users\user\source\repos\ood\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.pdb
 C:\Users\user\source\repos\ood\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.genruntimeconfig.cache
+C:\Users\gleba\source\repos\OOD\observer2\observer2\bin\Debug\netcoreapp3.1\observer2.exe
+C:\Users\gleba\source\repos\OOD\observer2\observer2\bin\Debug\netcoreapp3.1\observer2.deps.json
+C:\Users\gleba\source\repos\OOD\observer2\observer2\bin\Debug\netcoreapp3.1\observer2.runtimeconfig.json
+C:\Users\gleba\source\repos\OOD\observer2\observer2\bin\Debug\netcoreapp3.1\observer2.runtimeconfig.dev.json
+C:\Users\gleba\source\repos\OOD\observer2\observer2\bin\Debug\netcoreapp3.1\observer2.dll
+C:\Users\gleba\source\repos\OOD\observer2\observer2\bin\Debug\netcoreapp3.1\observer2.pdb
+C:\Users\gleba\source\repos\OOD\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.csprojAssemblyReference.cache
+C:\Users\gleba\source\repos\OOD\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.AssemblyInfoInputs.cache
+C:\Users\gleba\source\repos\OOD\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.AssemblyInfo.cs
+C:\Users\gleba\source\repos\OOD\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.csproj.CoreCompileInputs.cache
+C:\Users\gleba\source\repos\OOD\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.dll
+C:\Users\gleba\source\repos\OOD\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.pdb
+C:\Users\gleba\source\repos\OOD\observer2\observer2\obj\Debug\netcoreapp3.1\observer2.genruntimeconfig.cache

@@ -7,6 +7,29 @@ namespace observer
         public void Update( T data );
     }
 
+    public enum WeatherMeasure
+    {
+        Temperature,
+        Humidity,
+        Pressure
+    }
+
+    public struct MeasureContainer
+    {
+        public WeatherMeasure WeatherMeasure { get; private set; }
+        public double MaxValue { get; set; }
+        public double MinValue { get; set; }
+        public double AccValue { get; set; }
+
+        public MeasureContainer( WeatherMeasure weatherMeasure )
+        {
+            WeatherMeasure = weatherMeasure;
+            MaxValue = 0;
+            MinValue = 0;
+            AccValue = 0;
+        }
+    }
+
     public class Display : IObserver<WeatherInfo>
     {
         public void Update( WeatherInfo data )
@@ -17,52 +40,44 @@ namespace observer
         }
     }
 
+    //STRUCT
     public class StatisticDisplay : IObserver<WeatherInfo>
     {
         public void Update( WeatherInfo data )
         {
-            UpdateValues( ref _minTemperature, ref _maxTemperature, ref _accTemperature, data.Temperature );
-            UpdateValues( ref _minHumidity, ref _maxHumidity, ref _accHumidity, data.Humidity );
-            UpdateValues( ref _minPressure, ref _maxPressure, ref _accPressure, data.Pressure );
+            UpdateValues( ref _temperature, data.Temperature );
+            UpdateValues( ref _humidity, data.Humidity );
+            UpdateValues( ref _pressure, data.Pressure );
             _countAcc++;
 
-            DisplayStatistic("Temp", _minTemperature, _maxTemperature, _accTemperature);
-            DisplayStatistic("Hum", _minHumidity, _maxHumidity, _accHumidity );
-            DisplayStatistic( "Pressure ", _minPressure, _maxPressure, _accPressure );
+            DisplayStatistic( _temperature );
+            DisplayStatistic( _humidity );
+            DisplayStatistic( _pressure );
         }
 
-        private double _minTemperature = double.PositiveInfinity;
-        private double _maxTemperature = double.NegativeInfinity;
-        private double _accTemperature = 0;
-
-        private double _minHumidity = double.PositiveInfinity;
-        private double _maxHumidity = double.NegativeInfinity;
-        private double _accHumidity = 0;
-
-        private double _minPressure = double.PositiveInfinity;
-        private double _maxPressure = double.NegativeInfinity;
-        private double _accPressure = 0;
-
+        private MeasureContainer _temperature = new MeasureContainer( WeatherMeasure.Temperature );
+        private MeasureContainer _humidity = new MeasureContainer( WeatherMeasure.Humidity );
+        private MeasureContainer _pressure = new MeasureContainer( WeatherMeasure.Pressure );
         private uint _countAcc = 0;
 
-        private void DisplayStatistic( string measure, double minValue, double maxValue, double accValue )
+        private void DisplayStatistic( MeasureContainer measureContainer )
         {
-            Console.WriteLine( $"Max {measure}: {maxValue}" );
-            Console.WriteLine( $"Min {measure}: {minValue}" );
-            Console.WriteLine( $"Average {measure}: {accValue / _countAcc}" );
+            Console.WriteLine( $"Max {measureContainer.WeatherMeasure}: {measureContainer.MaxValue}" );
+            Console.WriteLine( $"Min {measureContainer.WeatherMeasure}: {measureContainer.MinValue}" );
+            Console.WriteLine( $"Average {measureContainer.WeatherMeasure}: {measureContainer.AccValue / _countAcc}" );
         }
 
-        private void UpdateValues( ref double minValue, ref double maxValue, ref double accValue, double currentValue )
+        private void UpdateValues( ref MeasureContainer measureContainer, double currentValue )
         {
-            if( minValue > currentValue )
+            if( measureContainer.MinValue > currentValue )
             {
-                minValue = currentValue;
+                measureContainer.MinValue = currentValue;
             }
-            if( maxValue < currentValue )
+            if( measureContainer.MaxValue < currentValue )
             {
-                maxValue = currentValue;
+                measureContainer.MaxValue = currentValue;
             }
-            accValue += currentValue;
+            measureContainer.AccValue += currentValue;
         }
     }
 }

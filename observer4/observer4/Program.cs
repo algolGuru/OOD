@@ -23,7 +23,6 @@ namespace observer
             weatherDataOutside.RegisterObserver( display );
 
             Console.WriteLine( weatherData.SetMeasurements( 3, 0.7, 760 ) );
-            Console.WriteLine( weatherDataOutside.SetMeasurements( 4, 0.8, 761 ) );
         }
     }
 }

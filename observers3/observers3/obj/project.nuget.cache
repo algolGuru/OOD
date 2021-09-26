@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7fwj28eyVnkRuEO170bIkydbTIgN5cFkQMOXFgd2IO2C8DegclLAPualoowsMtiQwTd7WnGespiF2si9L43GqQ==",
+  "dgSpecHash": "pUayG872FtWFjbl9ay41c1KlCM4RRiVUtOv55zi7uyxkj6K+ZagcX1dzC70Livdp/U0PRHSHFwtdxP9PT8Dhlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\ood\\observers3\\observers3\\observers3.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gleba\\source\\repos\\OOD\\observers3\\observers3\\observers3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gleba\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }

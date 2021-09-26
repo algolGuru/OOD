@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace observer
 {
@@ -13,17 +14,10 @@ namespace observer
     {
         public void NotifyObservers()
         {
-            int countOfObservers = _observers.Count;
-
-            for( int i = 0; i < countOfObservers; i++ )
+            List<IObserver<T>> _observersCopy = _observers.ToList();
+            foreach( var item in _observersCopy )
             {
-                if( _observers.Count < countOfObservers )
-                {
-                    i--;
-                    countOfObservers--;
-                }
-
-                _observers[ i ].Update( GetChangedData(), this );
+                item.Update( GetChangedData(), this );
             }
         }
 

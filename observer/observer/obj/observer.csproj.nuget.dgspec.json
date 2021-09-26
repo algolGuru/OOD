@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\ood\\observer\\observer\\observer.csproj": {}
+    "C:\\Users\\gleba\\source\\repos\\OOD\\observer\\observer\\observer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\ood\\observer\\observer\\observer.csproj": {
+    "C:\\Users\\gleba\\source\\repos\\OOD\\observer\\observer\\observer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ood\\observer\\observer\\observer.csproj",
+        "projectUniqueName": "C:\\Users\\gleba\\source\\repos\\OOD\\observer\\observer\\observer.csproj",
         "projectName": "observer",
-        "projectPath": "C:\\Users\\user\\source\\repos\\ood\\observer\\observer\\observer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\ood\\observer\\observer\\obj\\",
+        "projectPath": "C:\\Users\\gleba\\source\\repos\\OOD\\observer\\observer\\observer.csproj",
+        "packagesPath": "C:\\Users\\gleba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gleba\\source\\repos\\OOD\\observer\\observer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\gleba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -51,12 +49,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.13, 3.1.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

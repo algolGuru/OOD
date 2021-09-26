@@ -40,7 +40,7 @@ namespace observer
     {
         public void NotifyObservers()
         {
-            foreach( var subscriber in _subsctibers )
+            foreach( var subscriber in _subscribers )
             {
                 subscriber.Observer.Update( GetChangedData() );
             }
@@ -50,20 +50,20 @@ namespace observer
 
         public void RegisterObserver( Subscriber<T> observer )
         {
-            _subsctibers.Add( observer );
-            _subsctibers.Sort();
+            _subscribers.Add( observer );
+            _subscribers.Sort();
         }
 
         public void RemoveObserver( Subscriber<T> observer )
         {
-            _subsctibers.Remove( observer );
+            _subscribers.Remove( observer );
         }
 
         public List<Subscriber<T>> GetSubscribers()
         {
-            return _subsctibers;
+            return _subscribers;
         }
 
-        private readonly List<Subscriber<T>> _subsctibers = new List<Subscriber<T>>();
+        private readonly List<Subscriber<T>> _subscribers = new List<Subscriber<T>>();
     }
 }
